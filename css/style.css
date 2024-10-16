@@ -1,0 +1,151 @@
+/* NavBar */
+.navbar {
+    background-color: #001f3f; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999; 
+    height: 80px; 
+}
+
+/* Imagem de boas-vindas */
+.hero {
+    background-image: url('/images/Background.png'); 
+    background-size: cover;
+    background-position: center;
+    height: 60vh; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px; 
+    margin-top: 80px; 
+}
+
+body {
+    background-color: #f8f9fa;
+    margin: 0; /* Resetar a margem */
+}
+
+/*  Projetos */
+.project-card {
+    background: linear-gradient(135deg, #7d3cff, #3f5efb); /* Gradiente de fundo */
+    color: white;
+    border: none;
+    margin-bottom: 1.5rem;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/*  Projetos */
+.project-card p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+/* Rodapé */
+footer {
+    background-color: #212529;
+    color: white;
+    padding: 20px;
+}
+
+/* Rodapé */
+footer a {
+    color: #ffcc00; /* cor do link no rodapé */
+}
+
+/* Áreas de atuação */
+section h2 {
+    color: #6f42c1;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* Cards de projetos */
+.project-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Cards de projetos */
+.project-card {
+    flex: 1 1 calc(33.333% - 20px);
+    min-width: 250px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Botão de ver projetos */
+.btn-view-projects {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #000;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Inicio da Responsividade */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .project-card {
+        flex: 1 1 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 576px) {
+    .project-card {
+        flex: 1 1 100%;
+    }
+}
+
+/* Estilo dos ícones na seção "Participe dos Projetos" */
+.feature-icon {
+    font-size: 2.5rem;
+    color: #ffcc00;
+}
+
+/* Cards de inscrição */
+.participation-card {
+    border: 2px solid #ffcc00;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Cards de inscrição */
+.participation-card h4 {
+    margin-top: 10px;
+}
+
+/* Cards de inscrição */
+.btn-inscrever-se {
+    margin-top: 20px;
+    background-color: #ffcc00;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
