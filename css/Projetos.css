@@ -1,0 +1,50 @@
+/* NavBar */
+.navbar {
+    background-color: #001f3f; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999; 
+    height: 80px; 
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+
+/* Rodapé */
+footer {
+    background-color: #212529;
+    color: white;
+    padding: 20px;
+}
+
+/* Rodapé */
+footer a {
+    color: #ffcc00; /* cor do link no rodapé */
+}
+
+/* Inicio da Responsividade */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .project-card {
+        flex: 1 1 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 576px) {
+    .project-card {
+        flex: 1 1 100%;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}

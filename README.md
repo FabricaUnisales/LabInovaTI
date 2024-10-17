@@ -1,2 +1,3 @@
 # LabInovaTI
-Pagina home da VPS da Fabrica de Software
+
+Pagina home da VPS do Laboratios de Inovação e Tecnologia (Fabrica de Software).
