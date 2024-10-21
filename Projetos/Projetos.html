@@ -9,6 +9,7 @@
     <!-- Favicon -->
     <link rel="icon" href="/images/Logo.png" type="image/x-icon">
 
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/Projetos.css">
 </head>
@@ -19,8 +20,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand">
-                <img src="/images/Logo.png" alt="Logo LabInovaTI" width="30" height="30"
-                    class="d-inline-block align-top">
+                <img src="/images/Logo.png" alt="Logo LabInovaTI" width="30" height="30" class="d-inline-block align-top">
                 LabInovaTI
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -29,25 +29,22 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <!-- Link para Home -->
                     <li class="nav-item">
-                        <a class="nav-link" href="/index.html">Home</a>
+                        <a class="nav-link active" href="/index.html">Home</a>
                     </li>
-                    <!-- Dropdown para Projetos -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Projetos
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="/Projetos/website.html">Website</a></li>
+                            <li><a class="dropdown-item" href="/Projetos/socioemocional.html">SocioEmocional</a></li>
                             <li><a class="dropdown-item" href="/Projetos/bioindica.html">BioIndica</a></li>
-                            <li><a class="dropdown-item" href="/Projetos/bicicletario.html">Bicicletário</a></li>
-                            <li><a class="dropdown-item" href="/Projetos/fliperama.html">Fliperama</a></li>
-                            <li><a class="dropdown-item" href="/Projetos/quiz.html">Quiz</a></li>
+                            <li><a class="dropdown-item" href="/Projetos/ciasc.html">CIASC</a></li>
+                            <li><a class="dropdown-item" href="/Projetos/gipie.html">GIPIE</a></li>
+                            <li><a class="dropdown-item" href="/Projetos/conecta.html">Conecta+</a></li>
                         </ul>
                     </li>
-                    <!-- Redireciona para o Conecta+ -->
                     <li class="nav-item">
                         <a class="nav-link" href="http://162.240.149.224:5173/" target="_blank">Inscrições</a>
                     </li>
@@ -56,21 +53,123 @@
         </div>
     </nav>
 
-    <!-- Sem Comentarios -->
-    <h1>
-        <Br><Br><Br><Br><Br><Br><Br><Br><Br><Br>
-        Sem ideia de Como Fazer essa Pagina
-        <Br><Br><Br><Br><Br><Br><Br><Br><Br><Br>
-    </h1>
+    <!-- Conteúdo Principal -->
+    <main class="container py-5 mt-5">
+        <h1 class="text-center mb-4">Projetos LabInovaTI</h1>
+
+        <!-- Seção de Projetos Completos -->
+        <section class="mb-5">
+            <h2 class="text-center mb-3">Projetos Completos</h2>
+            <div class="row">
+                <!-- SocioEmocional-->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">SocioEmocional</h5>
+                            <p class="card-text">Projeto para desenvolver o Socio e o Emocional</p>
+                            <a href="/Projetos/socioemocional.html" class="btn btn-primary">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- BioIndica -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">BioIndica</h5>
+                            <p class="card-text">Projeto do Handsome</p>
+                            <a href="/Projetos/bioindica.html" class="btn btn-primary">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Conecta+ -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Conecta+</h5>
+                            <p class="card-text"> Site de cadastro que ninguem se cadastrou</p>
+                            <a href="/Projetos/conecta.html" class="btn btn-primary">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- GIPIE -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">GIPIE</h5>
+                            <p class="card-text">Projeto do JAMES</p>
+                            <a href="/Projetos/gipie.html" class="btn btn-primary">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- CIASC -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">CIASC</h5>
+                            <p class="card-text">Esse eu nem sei oque ele faz</p>
+                            <a href="/Projetos/ciasc.html" class="btn btn-primary">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Projetos em Desenvolvimento -->
+        <section class="mb-5">
+            <h2 class="text-center mb-3">Projetos em Desenvolvimento</h2>
+            <div class="row">
+                <!-- Projeto Bicicletário -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Bicicletário</h5>
+                            <p class="card-text">Bicileta e Armario</p>
+                            <a href="http://162.240.149.224:5173" class="btn btn-warning" target="_blank">Inscrever-se</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Projeto Pastoral -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Pastoral</h5>
+                            <p class="card-text">Thigo falou que vai fazer mais sei la</p>
+                            <a href="http://162.240.149.224:5173" class="btn btn-warning" target="_blank">Inscrever-se</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Jogo de Psicologia -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Jogo de Psicologia</h5>
+                            <p class="card-text">Uma bagunça mais ta indo</p>
+                            <a href="http://162.240.149.224:5173" class="btn btn-warning" target="_blank">Inscrever-se</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Rachão.app -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Rachão.app</h5>
+                            <p class="card-text"> Ele sempre esteve lá</p>
+                            <a href="http://162.240.149.224:5173" class="btn btn-warning" target="_blank">Inscrever-se</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <!-- Rodapé -->
     <footer>
         <div class="container">
-            <p class="text-center">@UniSales | Endereço: Av Vitória, 950, Forte São João - Vitória/ES CEP: 29017-950 -
-                Telefone: 27 3331-8500</p>
+            <p class="text-center">@UniSales | Endereço: Av Vitória, 950, Forte São João - Vitória/ES CEP: 29017-950 - Telefone: 27 3331-8500</p>
         </div>
     </footer>
 
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>

@@ -1,50 +1,65 @@
 /* NavBar */
 .navbar {
     background-color: #001f3f; 
-    position: fixed;
+    position: fixed; 
     top: 0;
     width: 100%;
     z-index: 999; 
     height: 80px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 body {
     background-color: #f8f9fa;
+    margin: 0;
+    padding-top: 80px; 
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
 }
-
 
 /* Rodapé */
 footer {
-    background-color: #212529;
-    color: white;
+    background-color: #212529; 
+    color: white; 
     padding: 20px;
+    text-align: center; 
+    margin-top: auto; 
+    width: 100%;
+    position: relative; 
+    bottom: 0;
 }
 
-/* Rodapé */
+/* Links no Rodapé */
 footer a {
-    color: #ffcc00; /* cor do link no rodapé */
+    color: #ffcc00; 
+    text-decoration: none; 
+}
+
+footer a:hover {
+    color: #ffdd33; 
 }
 
 /* Inicio da Responsividade */
 @media (max-width: 768px) {
     .hero h1 {
-        font-size: 2.5rem;
+        font-size: 2.5rem; 
     }
     .hero p {
-        font-size: 1rem;
+        font-size: 1rem; 
     }
 
     .project-card {
-        flex: 1 1 calc(50% - 20px);
+        flex: 1 1 calc(50% - 20px); 
     }
 }
 
 @media (max-width: 576px) {
     .project-card {
-        flex: 1 1 100%;
+        flex: 1 1 100%; 
     }
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; 
 }
