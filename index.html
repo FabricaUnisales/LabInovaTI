@@ -33,9 +33,19 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Home</a>
                     </li>
-                    <!-- Link para Projetos -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="/Projetos/Projetos.html">Projetos</a>
+                    <!-- Dropdown para Projetos -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Projetos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/Projetos/website.html">Website</a></li>
+                            <li><a class="dropdown-item" href="/Projetos/bioindica.html">BioIndica</a></li>
+                            <li><a class="dropdown-item" href="/Projetos/bicicletario.html">Bicicletário</a></li>
+                            <li><a class="dropdown-item" href="/Projetos/fliperama.html">Fliperama</a></li>
+                            <li><a class="dropdown-item" href="/Projetos/quiz.html">Quiz</a></li>
+                        </ul>
                     </li>
                     <!-- Redireciona para outro site ao clicar em Inscrições -->
                     <li class="nav-item">
@@ -46,10 +56,74 @@
         </div>
     </nav>
 
+
     <!-- Banner de Boas-vindas -->
     <header class="hero">
         <!-- Precisei criar isso para manter a imagem de Boas vindas -->
     </header>
+
+    <!-- Carrossel de Projetos -->
+    <section class="container py-5">
+        <h2 class="text-center mb-4">Nossos Projetos</h2>
+        <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="/Projetos/website.html" target="_blank">
+                        <img src="/images/test.png" class="d-block w-100" alt="Projeto Website">
+                    </a>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Website</h5>
+                        <p>Projeto de desenvolvimento de um site.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="/Projetos/bioindica.html" target="_blank">
+                        <img src="/images/test2.png" class="d-block w-100" alt="Projeto BioIndica">
+                    </a>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>BioIndica</h5>
+                        <p>Sistema para indicação biológica.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="/Projetos/bicicletario.html" target="_blank">
+                        <img src="/images/test3.png" class="d-block w-100" alt="Projeto Bicicletário">
+                    </a>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Bicicletário</h5>
+                        <p>Projeto de gerenciamento de bicicletário.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="/Projetos/fliperama.html" target="_blank">
+                        <img src="/images/test4.png" class="d-block w-100" alt="Projeto Fliperama">
+                    </a>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Fliperama</h5>
+                        <p>Desenvolvimento de um jogo de fliperama.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="/Projetos/quiz.html" target="_blank">
+                        <img src="/images/test5.png" class="d-block w-100" alt="Projeto Quiz">
+                    </a>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Quiz</h5>
+                        <p>Criação de um quiz interativo.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>
+        <a href="/Projetos/Projetos.html" class="btn-view-projects mt-4 d-block text-center">Ver todos os projetos</a>
+    </section>
 
     <!-- Cards para se cadastrar nos Projetos -->
     <section class="container py-5">
@@ -85,27 +159,15 @@
         </div>
     </section>
 
-    <!-- Texto mostrando os cursos e Passando o contato do Marcelo -->
+    <!-- Texto mostrando os cursos e Passando o contato da Fabrica -->
     <section class="container py-5">
         <h2 class="text-center">Nossos Cursos</h2>
         <p class="text-center">Análise e Desenvolvimento de Sistemas (Tecnólogo), Banco de Dados (Tecnólogo),
             Desenvolvimento de Jogos (Tecnólogo), Engenharia de Software (Bacharelado), Sistemas de Informação
             (Bacharelado), Sistemas para Internet (Tecnólogo).</p>
         <p class="text-center"><strong>Caso queira conhecer os cursos, entre em contato: <a
-                    href="mailto:mschuster@salesiano.br">mschuster@salesiano.br</a></strong></p>
-    </section>
-
-    <!-- Lugar dos projetos que sinseramente ta uma bosta -->
-    <section class="container py-5">
-        <h2 class="text-center">Nossos Projetos</h2>
-        <div class="project-row">
-            <div class="project-card">Website</div>
-            <div class="project-card">BioIndica</div>
-            <div class="project-card">Bicicletario</div>
-            <div class="project-card">Fliperama</div>
-            <div class="project-card">Quiz</div>
-        </div>
-        <a href="/Projetos/Projetos.html" class="btn-view-projects">Ver todos os projetos</a>
+                    href="mailto:fabricadesoftware@souunisales.com.br">fabricadesoftware@souunisales.com.br</a></strong>
+        </p>
     </section>
 
     <!-- Rodapé -->
